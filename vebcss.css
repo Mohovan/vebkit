@@ -95,3 +95,29 @@ right: 14.94%;
 top: 0.68%;
 bottom: 98.56%;
 }
+.block1{
+width: 1600px;
+height: 764px;
+left: 0px;
+top: 75px;
+border-radius: 0px;   
+position: absolute;
+left: 0%;
+right: 0%;
+/*top: 1.96%;
+bottom: 78.08%;*/
+background: #F1E4E6;
+}
+.line{
+height: 92px;
+width: 12px;
+left: 864px;
+top: 364.90234375px;
+border-radius: 0px;
+background: #F16D7F;
+position: absolute;
+left: 54%;
+right: 45.25%;
+/*top: 9.53%;
+bottom: 88.06%;*/
+}
