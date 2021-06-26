@@ -3,9 +3,18 @@
     padding: 0;
 }
 .header{
-    height: 100px;
-    background-color: #ccc;
-
+    position: absolute;
+height: 75px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px; 
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.04%;
+background: #222222;
+line-height: 75px;
 }
 .item{
     width: 250px;
@@ -21,32 +30,25 @@
     background-color: #ccc;
 
 }
-.content{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
+
+.find{
+left: 19.75%;
+right: 78.63%;
+top: 0.74%;
+bottom: 98.56%;
+position: absolute;
+
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
-.flex{
-    display: flex;
-    justify-content: space-around;
-}
-.button{
-    width: 100px;
-    height: 40px;
-    background-color: aqua;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-    border: 1px solid transparent;
-    margin: 10px;
-}
-.button:hover{
-    background-color: blue;
-    border: 1px solid #000;
-    background-color: #fff;
-    color: black;
+.Group{
+position: absolute;
+height: 38px;
+width: 44px;
+left: 231px;
+top: 18px;
+border-radius: 0px;
+left: 14.44%;
+right: 82.81%;
+top: 0.47%;
+bottom: 98.54%;
+background: url(Group 2.svg);
 }
