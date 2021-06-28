@@ -66,55 +66,103 @@ position: absolute;
 background: #F1E4E6;
 }
 .line{
-height: 92px;
-width: 12px;
+height: 764px;
+width: 1600px;
 left: 864px;
-top: 364.90234375px;
-border-radius: 0px;
-background: #F16D7F;
+top: 289px;
+border-radius: 0px;    
+position:absolute
+}
+.textblock1{ 
+height: 93px;
+width: 377px;
+left: 892px;
+top: 295px;
+border-radius: nullpx;
 position: absolute;
+}
+.block2{
+   position: absolute;
+}
+.offer{
+    
+}
+}
+.forwoman{
+position: relative;
+height: 260px;
+width: 360px;
+left: 230px;
+top: 904px;
+border-radius: 0px;
+}
+.rect20{
+height: 260px;
+width: 360px;
+left: 230px;
+top: 904px;
+position: absolute;
+z-index: 2;
+}
+.l43{
+height: 260px;
+width: 360px;
+left: 230px;
+top: 904px;
+position: absolute;
+z-index: 1;
+}
+.l30offw{
+height: 50px;
+width: 154px;
+left: 333px;
+top: 1009px;
+border-radius: nullpx;    
+border-radius: nullpx;
+position: absolute;
+ z-index: 3;
+}
+.forman{
+ height: 260px;
+width: 360px;
+left: 620px;
+top: 904px;
+border-radius: 0px;   
+position: relative;
+border-radius: 0px;
+}
+.rect201{
+height: 260px;
+width: 360px;
+left: 20px;
+top: 0px;
+border-radius: 0px;    
+position: absolute;
+z-index: 2;
+}
+.rect30{
+height: 260px;
+width: 360px;
+left: 20px;
+top: 0px;
+border-radius: 0px;       
+position: absolute;
+z-index: 1;
+}
+.hot{
+height: 50px;
+width: 110px;
+left: 125px;
+top: 105px;
+border-radius: nullpx;
+position: absolute;
+z-index: 3;
 }
 
-.textblock1{
-height: 93.09912109375px;
-width: 405px;
-left: 864px;
-top: 364.90234375px;
-border-radius: 0px;
-position: absolute;
-}
-.brand{
-font-family: Lato, sans-serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-}
-.ofl{
-    font-family: Lato, sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    }
-.fash{
-    font-family: Lato, sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0em;
-    margin-left: 250px;
-    text-align: left;
-    color: #F16D7F;
-    position: absolute;
-}
+
+
+
+
 
 
 
