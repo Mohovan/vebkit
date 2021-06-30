@@ -1,5 +1,4 @@
-.container{
-}
+
 .header{
 position: absolute;
 height: 75px;
@@ -27,7 +26,6 @@ top: 18px;
 bottom: 19px;
 right: 1325px;
 border-radius: 0px;
-background: url(Group 2.svg);
 }
 .Forma2{
 height: 23px;
@@ -82,50 +80,44 @@ border-radius: nullpx;
 position: absolute;
 }
 .block2{
-   position: absolute;
-}
-.offer{
-    
-}
+   display: flex;
 }
 .forwoman{
 position: relative;
+margin-left: 230px;
 height: 260px;
 width: 360px;
-left: 230px;
 top: 904px;
 border-radius: 0px;
 }
 .rect20{
 height: 260px;
 width: 360px;
-left: 230px;
-top: 904px;
+top: 0px;
 position: absolute;
 z-index: 2;
 }
 .l43{
 height: 260px;
 width: 360px;
-left: 230px;
-top: 904px;
 position: absolute;
+top: 0px;
 z-index: 1;
 }
 .l30offw{
 height: 50px;
 width: 154px;
-left: 333px;
-top: 1009px;
+left: 125px;
+top: 105px;
+position: absolute;
 border-radius: nullpx;    
 border-radius: nullpx;
-position: absolute;
  z-index: 3;
 }
 .forman{
- height: 260px;
+margin-left: 30px;
+height: 260px;
 width: 360px;
-left: 620px;
 top: 904px;
 border-radius: 0px;   
 position: relative;
@@ -134,7 +126,6 @@ border-radius: 0px;
 .rect201{
 height: 260px;
 width: 360px;
-left: 20px;
 top: 0px;
 border-radius: 0px;    
 position: absolute;
@@ -143,7 +134,6 @@ z-index: 2;
 .rect30{
 height: 260px;
 width: 360px;
-left: 20px;
 top: 0px;
 border-radius: 0px;       
 position: absolute;
