@@ -50,9 +50,10 @@ position: absolute;
 }
 .menu{
 display: flex;
-list-style-type: none;
-/*justify-content: center;*/
-margin-bottom: 200px;
+width: 100%;
+/*list-style-type: none;*
+justify-content: center;*/
+margin-bottom: 800px;
 
 
 
@@ -71,10 +72,11 @@ text-transform: uppercase;
 padding-bottom: 200px;
 padding-right: 200px;
 }
-.menu-list:hover .mega-box{
+.menu-list:hover .mega-box{    
 display: flex;
-}
 
+
+}
 
 .mega-box{
 border: 1px solid black;
@@ -89,6 +91,7 @@ padding-left: 33px;
 padding-right: 0px;
 justify-content: space-between;
 z-index: 2;
+overflow: hidden;
 }
 
 .Find form {
@@ -237,7 +240,115 @@ left: 864px;
 top: 364.90234375px;
 border-radius: 0px;
 }
+.sales-sec{
+ margin-bottom: 65px;
+ position: absolute;
+height: 470px;
+width: 1142px;
+left: 223px;
+top: 904px;
+border-radius: 0px;
+}
+.sales-box{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.sales{
+width: 360px;
+position: relative;
+margin-bottom: 30px;
 
+}
+.sales-link{
+width: 100%;
+display: block;
+text-decoration: none;
+justify-content: center;
+}
+.sales-txt{
+    display: flex;
+    position: absolute;
+    top: 105px;
+    left: 103px;
+
+}
+.sales-txtacsses{
+    display: flex;
+    position: absolute;
+    top: 65px;
+    left: 490px;   
+}
+.sales-add{
+    display: block;
+    color: white;
+    padding: 0px;
+    justify-content: center;
+
+}
+.sales-info{ 
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19,2px;
+    color: white; 
+    margin-bottom: 2px; 
+    margin-top: 0px;
+    margin-left: 46px;
+
+}
+.sales-info3{ 
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19,2px;
+    color: white; 
+    margin-bottom: 2px; 
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+.sales-info4{ 
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19,2px;
+    color: white; 
+    margin-bottom: 2px; 
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
+
+
+}
+.sptxt{
+font-family:'Lato', sans-serif;
+color: #F16D7F;
+font-size: 24px;
+line-height: 28,8px; 
+}
+.sptxt2{
+    font-family:'Lato', sans-serif;
+    color: #F16D7F;
+    font-size: 24px;
+    line-height: 28,8px; 
+    padding-left: 30px;
+    }
+.sptxt3{
+    font-family:'Lato', sans-serif;
+    color: #F16D7F;
+    font-size: 24px;
+    line-height: 28,8px; 
+    padding-left: 20px;
+}
+.sptxt4{
+    font-family:'Lato', sans-serif;
+    color: #F16D7F;
+    font-size: 24px;
+    line-height: 28,8px;
+    margin-left: 15px;
+    left: 0px; 
+    }
+.sales-pic{
+    filter: brightness(30%);
+}
 .item-sec{
 margin-bottom: 100px;
 position: absolute;
@@ -253,7 +364,7 @@ position: absolute;
 height: 100%;
 width: 100%;
 left: 480px;
-top: 0px;
+top: -12px;
 border-radius: nullpx;
 font-family:'Lato', sans-serif;
 font-size: 30px;
@@ -265,9 +376,9 @@ margin-bottom: 0px;
 .shop {
 position: absolute;
 height: 17px;
-width: 336px;
+width: 100%;
 left: 401px;
-top: 20px;
+top: 10px;
 border-radius: nullpx;
 font-family:'Lato', sans-serif;
 font-size: 14px;
@@ -363,6 +474,32 @@ margin-top: 10px;
 .item:hover .add-box{
     display: flex;
 }
+.button{
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+}
+.browse{
+    height: 47px;
+    width: 211px;
+    left: 695.5px;
+    top: 2817.5px;
+    border-radius: 0px;  
+    background: #F16D7F;
+border: 1px solid #FF6A6A;    
+}
+.browse2{
+text-decoration: none;
+font-family:'Lato', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
 
 
 .footer{
@@ -383,11 +520,10 @@ left: 235px;
 right: 1033px;
 top: 30px;
 bottom: 30px;
-font-family: Lato, sans-serif;
+font-family:'Lato', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #FBFBFB;   
 }
-        
