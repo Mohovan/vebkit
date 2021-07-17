@@ -200,72 +200,34 @@ justify-content: center;*/
 }
 
 .block1 {
-    display: block;
-    position: absolute;
-    height: 764px;
-    width: 1600px;
-    left: 0px;
-    top: 75px;
-    border-radius: 0px;
-    background: #F1E4E6;
-    z-index: 1;
+display: block;
+position: absolute;
+height: 148px;
+width: 1600px;
+left: 0px;
+top: 75px;
+background: #F8F3F4;
+z-index: 1;
+}
+.txtreg{
+position: absolute;
+height: 29px;
+width: 194px;
+left: 230px;
+margin-top: 40px;
+border-radius: nullpx;
 }
 
-.manofcurt {
-    height: 764px;
-    width: 800px;
-    left: 4px;
-    top: 75px;
-    border-radius: 0px;
-}
-
-.textbrand {
-    position: absolute;
+.reg{
     font-family: 'Lato', sans-serif;
-    height: 93px;
-    width: 400px;
-    left: 892px;
-    top: 318px;
-    border-radius: nullpx;
-}
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */  
+    color: #F16D7F;       
+    }
 
-.brand {
-    line-height: 56px;
-    font-size: 48px;
-}
-
-.text2 {
-    position: absolute;
-    font-family: 'Lato', sans-serif;
-    line-height: 38, 4px;
-    font-size: 32px;
-    height: 93px;
-    width: 400px;
-    left: 892px;
-    top: 387px;
-
-}
-
-.fashion {
-    position: absolute;
-    font-family: 'Lato', sans-serif;
-    color: #F16D7F;
-    line-height: 38, 4px;
-    font-size: 32px;
-    height: 93px;
-    width: 400px;
-    left: 1143px;
-    top: 387px;
-}
-
-.lpink {
-    position: absolute;
-    height: 92px;
-    width: 12px;
-    left: 864px;
-    top: 364.90234375px;
-    border-radius: 0px;
-}
 
 
 
@@ -416,14 +378,7 @@ font-weight: 400;
 line-height: 17px;
 letter-spacing: 0em;
 text-align: center;
-
- 
 }
-
-
-
-
-
 
 .footer {
     height: 79px;
